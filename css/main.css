@@ -1,0 +1,60 @@
+* {
+  color: #58a450;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  background: #312e34;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+.input {
+  width: 30%;
+  min-height: 50px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+textarea {
+  width: 30%;
+  border-radius: 10px;
+}
+
+span input {
+  color: aliceblue;
+  background: black;
+  width: 125px;
+  height: 40px;
+}
+
+@media (max-width:1024px) {
+
+  textarea,
+  .input {
+    width: 40%;
+  }
+
+}
+
+@media(max-width:770px) {
+
+  textarea,
+  .input {
+    width: 60%;
+  }
+}
+
+@media(max-width:430px) {
+
+  textarea,
+  .input {
+    width: 80%;
+  }
+}
